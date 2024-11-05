@@ -1,0 +1,34 @@
+{
+  "title": "Epic Adventure",
+  "genre": "Action RPG",
+  "developer": "Adventure Studios",
+  "publisher": "Gaming World",
+  "release_date": "2023-11-15",
+  "platforms": ["PC", "PlayStation 5", "Xbox Series X"],
+  "rating": {
+    "ESRB": "T",
+    "PEGI": "16"
+  },
+  "features": {
+    "single_player": true,
+    "multiplayer": true,
+    "co_op": true,
+    "open_world": true
+  },
+  "system_requirements": {
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i5-6600K",
+      "RAM": "8 GB",
+      "GPU": "NVIDIA GeForce GTX 970",
+      "Storage": "50 GB"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i7-8700K",
+      "RAM": "16 GB",
+      "GPU": "NVIDIA GeForce RTX 2070",
+      "Storage": "50 GB"
+    }
+  }
+}

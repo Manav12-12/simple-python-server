@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Lines</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #f0f0f0;
+    }
+    .line {
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: black;
+      animation: move 5s linear infinite;
+    }
+    .line:nth-child(1) {
+      top: 20%;
+      animation-delay: 0s;
+    }
+    .line:nth-child(2) {
+      top: 50%;
+      animation-delay: 1s;
+    }
+    .line:nth-child(3) {
+      top: 80%;
+      animation-delay: 2s;
+    }
+    @keyframes move {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+  </style>
+</head>
+<body>
+  <div class="line">WELCOME TO MY HTML PAGE</div>
+  <div class="line">HOPE YOU ENJOY SEEING THIS CATASTROPHY</div>
+  <div class="line">WHY ARE YOU STILL HERE</div>
+</body>
+</html>
